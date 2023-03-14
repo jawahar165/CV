@@ -1,0 +1,67 @@
+{% include 'index.html' %}
+{% load static %}
+<html>
+    <head>
+        {% load static %}
+        <link href="{% static 'css/styl.css' %}" rel="stylesheet">
+        <style>
+            body{
+                background-image: url("{% static 'image/back.gif' %} ");
+                height:fit-content;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+            }
+        </style>
+        {% load static %}
+    </head>
+    <body id="all">
+        <div>
+        <table width="920" cellpadding="50" cellspacing="0" border="5" align="center"  class="qtable">
+        <tr>
+        <th scope="col" id="qhead">Education</th>
+        <th scope="col" id="qhead">Instutive</th>
+        <th scope="col" id="qhead">Year of Passing</th>
+        <th scope="col" id="qhead">Percent</th>
+    </tr>
+    <tr>
+        <th scope="row" id="qhead">10-TH</th>
+        <td id="qsub">Goverment boys higher secondary school, paundamangalam,namakkal(DT)</td>
+        <td id="qsub">2017</td>
+        <td id="qsub">95%</td>
+    </tr>
+    <tr >
+        <th scope="row" id="qhead">12-TH</th>
+        <td id="qsub" class="qrow">Vivekananda higher secondary school, paundamangalam,namakkal(DT)</td>
+        <td id="qsub" class="qrow">2019</td>
+        <td id="qsub" class="qrow">81%</td>
+    </tr>
+    <tr>
+        <th scope="row"  id="qhead">Bsc Electronics</th>
+        <td id="qsub">PSG collage of arts and science,Coimbatore(DT)</td>
+        <td id="qsub">2022</td>
+        <td id="qsub">74%</td>
+    </tr>
+</table> 
+</div>
+<div id="fall"><a href="#" >
+    <img src=" {% static 'image/cuite.gif' %}" width="450px" height="240px" align="right" id="im1"></a>
+    <div>
+    <ul>
+        <li class="flist"><a href="#" class="fli">Contact</a></li>
+        <li class="flist"><a href="#" class="fli">Phone</a></li>
+        <li class="flist"><a href="#" class="fli">Email</a></li>
+        <li class="flist"><a href="#" class="fli">Home</a></li>
+   </ul><br><br>
+   <ul id="ficon">
+    <li class="flist"><a href="#" class="ficon"><img src="{% static 'image/fb.png' %}" width="30px" height="30px"> </a> </li>
+    <li class="flist"><a href="#" class="ficon"><img src="{% static 'image/insta.jpeg' %}" width="30px" height="30px"> </a> </li>
+    <li class="flist"><a href="#" class="ficon"><img src="{% static 'image/serv.png' %}" width="30px" height="30px"> </a> </li>
+    <li class="flist"><a href="#" class="ficon"><img src="{% static 'image/wtapp.png' %}" width="30px" height="30px"> </a> </li>
+    <li class="flist"><a href="#" class="ficon"><img src="{% static 'image/ytube.png' %}" width="30px" height="30px"> </a> </li>
+   </ul>
+</div>
+</div>
+    </body>
+    </html>

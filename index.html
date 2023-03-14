@@ -1,0 +1,26 @@
+{% load static %}
+<html>
+    <head>
+        {% load static %} 
+        <link href="{% static 'css/styl.css' %}" rel="stylesheet">
+        {% load static %}
+    </head>
+    <body >
+        
+        <center id="top"><img src="{% static 'image/img-main.jpeg' %}" width="150px" height="150px" >
+         <img src="{% static 'image/walk.gif' %}" width="300px" height="200px" align="right" >
+        <img src="{% static 'image/walk.gif' %}" width="300px" height="200px" align="left">
+        <br><b class="top">MY PROFILE</b> <br>
+        <marquee style="color:rgb(10, 10, 10);width:300px;font-size: 30px;  font-weight: bold; height: 40px; padding: 20px 0 10px;font-family: Georgia, 'Times New Roman', Times, serif; ">WELCOME TO MY WEBSITE</marquee>  </center>
+        <navbar>
+            <ul>
+                
+                <li><a href="/"><img src="{% static 'image/home.png' %}" width="30px" height="30px" align="center" class="icon"> Personal Details</a> </li>
+                <li><a href="/qual"><img src="{% static 'image/sms.png' %}" width="30px" height="30px" align="center" class="icon"> Qualification</a> </li>
+                <li><a href="/skill"><img src="{% static 'image/email.png' %}" width="30px" height="30px" align="center" class="icon"> Skills</a> </li>
+                <li><a href="/extra"><img src="{% static 'image/loc.png' %}" width="30px" height="30px" align="center" class="icon"> Extra Activity</a> </li>
+            </ul>
+        </navbar>
+        <hr> 
+    </body>
+</html>

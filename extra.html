@@ -1,0 +1,90 @@
+{% include 'index.html' %}
+{% load static %}
+<html>
+    <head>
+        {% load static %}
+        <link href="{% static 'css/styl.css' %}" rel="stylesheet">
+        <style>
+            body{
+                background-image: url("{% static 'image/back.gif' %} ");
+                height:fit-content;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+            }
+        </style>
+        {% load static %}
+    </head>
+    <body>
+        <fieldset>
+        <legend align="center">
+        <h1 id="head">Extra Curicular Activity</h1></legend>
+        <br><div>
+            <div class="emain-lab">
+        <p><h2 id="head" align="center">kabaddi</h2>
+            <img src="{% static 'image/kbd.jpeg' %}" width="400px" height="200px"  id="img1">
+        <ul class="eli" >
+            <li>State level tournument runner</li>
+            <li>National tournument participation</li>
+            <li>District level tournument winner</li>
+        </ul></p>
+    </div>
+        <div class="emain-lab">
+        <p><h2 id="head" align="center">Swimming</h2>
+            <img src="{% static 'image/swim1.jpeg' %}" width="400px" height="200px"  id="img1">
+        <ul class="eli" >
+            <li>District level tournument winner</li>
+            <li>State level tournument participation</li>
+        </ul></p>
+    </div>
+        <div class="emain-lab">    
+
+        <p><h2 id="head" align="center">Cubes</h2>
+        <h3 id="esub">Solving 4 level of cubes</h3>
+        <ul class="eli">
+            <li><b id="cu">Squre rubic cube</b><br>
+                <img src="{% static 'image/cube2.jpeg' %}" width="100px" height="100px" align="left" class="img1">
+                <img src="{% static 'image/arow.png' %}" width="100px" height="50px" align="center" id="cen" class="img1">
+                <img src="{% static 'image/cube1.jpeg' %}" width="100px" height="100px" align="right" id="righ" class="img1">
+                <br><br><i id="iti">Solving time - 0.51 MIN</i></li>
+                <br><br>
+            <li><b id="cu">Shapes rubic cube</b><br>
+                <img src="{% static 'image/shape1.jpeg' %}" width="100px" height="100px" align="left" class="img1">
+                <img src="{% static 'image/arow.png' %}" width="100px" height="50px" align="center" id="cen" class="img1">
+                <img src="{% static 'image/shape2.jpeg' %}" width="100px" height="100px" align="right" id="righ" class="img1">
+                <br><br> <i id="iti">Solving time - 2.05 MIN</i></li>
+                <br><br>
+            <li><b id="cu">Hexogone type cube</b><br>
+                <img src="{% static 'image/hex.jpeg' %}" width="100px" height="100px" align="center" id="cen" class="img1">
+                <br><i id="iti">Solving time - 8.25 MIN</i></li><br><br>
+            <li><b id="cu">samoza type cube</b><br>
+                <img src="{% static 'image/sams2.jpeg' %}" width="100px" height="100px" align="left" class="img1">
+                <img src="{% static 'image/arow.png' %}" width="100px" height="50px" align="center" id="cen" class="img1">
+                <img src="{% static 'image/sams1.jpeg' %}" width="100px" height="100px" align="right" id="righ" class="img1">
+                <br><br><i id="iti">Solving time - 2.30 MIN</i></li>
+        </ul>
+    </p>
+</div>
+</div>
+</fieldset>
+<div id="fall"><a href="#" >
+    <img src=" {% static 'image/cuite.gif' %}" width="450px" height="240px" align="right" id="im1"></a>
+    <div>
+    <ul>
+        <li class="flist"><a href="#" class="fli">Contact</a></li>
+        <li class="flist"><a href="#" class="fli">Phone</a></li>
+        <li class="flist"><a href="#" class="fli">Email</a></li>
+        <li class="flist"><a href="#" class="fli">Home</a></li>
+   </ul><br><br>
+   <ul id="ficon">
+    <li class="flist"><a href="#" class="ficon"><img src="{% static 'image/fb.png' %}" width="30px" height="30px"> </a> </li>
+    <li class="flist"><a href="#" class="ficon"><img src="{% static 'image/insta.jpeg' %}" width="30px" height="30px"> </a> </li>
+    <li class="flist"><a href="#" class="ficon"><img src="{% static 'image/serv.png' %}" width="30px" height="30px"> </a> </li>
+    <li class="flist"><a href="#" class="ficon"><img src="{% static 'image/wtapp.png' %}" width="30px" height="30px"> </a> </li>
+    <li class="flist"><a href="#" class="ficon"><img src="{% static 'image/ytube.png' %}" width="30px" height="30px"> </a> </li>
+   </ul>
+</div>
+</div>
+        </body>
+        </html>

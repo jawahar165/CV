@@ -1,0 +1,79 @@
+{% include 'index.html' %}
+{% load static %}
+<html>
+    <head>
+        {% load static %}
+        <link href="{% static 'css/styl.css' %}" rel="stylesheet">
+        <style>
+            body{
+                background-image: url("{% static 'image/back.gif' %} ");
+                height:fit-content;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+            }
+        </style>
+        {% load static %}
+    </head>
+    <body id="all">
+        <p><div>
+            <ol>
+            <div class="scon">
+                <li><b id="shead" align="center">Typing speed</b><br>
+                    <img src="{% static 'image/type.jpeg' %}" width="400px" height=300px" class="simg"><P id="w1" class="lab">
+                            The average typing speed is around 40 words per minute (wpm). <br>
+                                     If you want to be very
+productive, you should aim for a typing speed of 65 to 70 words per minute. It is easy with the
+right technique!<br>
+         You will see <b><a href="#" style="text-decoration: none;">improvement in a few weeks</a></b> if you practice often, concentrate on accuracy over
+speed and adopt the proper technique. The hardest part is forgetting your bad habits, even if
+it means typing more slowly at first.</P><hr class="simg1">
+                </li></div>
+            <div class="scon">         
+                <li ><b id="shead" align="center">Communication</b><br>
+                    <img src="{% static 'image/comm1.jpeg' %}" width="400px" height="300px" class="simg"><P id="w1" class="lab">
+                        Computers are an increasingly important part of the communication process. Large
+computers in central locations store <b><a href="#" style="text-decoration: none;"> enormous amounts</a></b> of information and permit other
+computers to use it if desired. Internet connections permit people to see information from a
+library or other program source.<br>
+        No matter what technical advances in <b>communication</b> may occur in the future, the actual
+meaning of any communication will still exist only in the minds of people. Technology is a
+means of helping people to share ideas and feelings, but it will never replace the
+fundamental human need to exchange and interpret information.</P><hr>
+                 </li></div>
+                 <div class="scon">
+                <li ><b id="shead" align="center">Python Programming</b><br>
+                    <img src="{% static 'image/pyth.png' .png%}" width="400px" height="300px" class="simg"><P id="w1" class="lab">
+                        Python has become one of the most popular programming languages in the world in recent
+years. It's used in everything from <b><a href="#" style="text-decoration: none;">machine learning</a></b> to building websites and software
+testing. <br>It can be used by developers and non-developers alike.
+Python has become a staple in data science, allowing data analysts and other professionals
+to use the language to conduct complex statistical calculations, create data visualizations,
+build machine learning algorithms, <b>manipulate </b>and analyze data, and complete other
+data-related tasks.</P><hr>
+                </li>
+                </div>
+            </ol>
+            </div>
+        </p>
+        <div id="fall"><a href="#" >
+            <img src=" {% static 'image/cuite.gif' %}" width="450px" height="240px" align="right" id="im1"></a>
+            <div>
+            <ul>
+                <li class="flist"><a href="#" class="fli">Contact</a></li>
+                <li class="flist"><a href="#" class="fli">Phone</a></li>
+                <li class="flist"><a href="#" class="fli">Email</a></li>
+                <li class="flist"><a href="#" class="fli">Home</a></li>
+           </ul><br><br>
+           <ul id="ficon">
+            <li class="flist"><a href="#" class="ficon"><img src="{% static 'image/fb.png' %}" width="30px" height="30px"> </a> </li>
+            <li class="flist"><a href="#" class="ficon"><img src="{% static 'image/insta.jpeg' %}" width="30px" height="30px"> </a> </li>
+            <li class="flist"><a href="#" class="ficon"><img src="{% static 'image/serv.png' %}" width="30px" height="30px"> </a> </li>
+            <li class="flist"><a href="#" class="ficon"><img src="{% static 'image/wtapp.png' %}" width="30px" height="30px"> </a> </li>
+            <li class="flist"><a href="#" class="ficon"><img src="{% static 'image/ytube.png' %}" width="30px" height="30px"> </a> </li>
+           </ul>
+        </div>
+        </div>
+        </body>
+        </html>
